@@ -27,7 +27,7 @@ header {
   /*max-height: 700px;*/
   background-size: cover;
   background-position: center;
-  background-image: url("../img/capa.png");
+  background-image: url('../img/capa.png');
   font-weight: 300;
 }
 
@@ -41,7 +41,7 @@ nav.mobile-menu {
   width: 32px;
   height: 32px;
   background-image: url(../img/menu.png);
-  background-size: 1005 100%;
+  background-size: 100% 100%;
 }
 
 nav.mobile-menu:hover ul {
@@ -83,7 +83,7 @@ header .logo {
   float: left;
   width: 160px;
   height: 40px;
-  background-image: url("../img/logo-danki.png");
+  background-image: url('../img/logo-danki.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ section.sessao1 .container {
   position: relative;
   top: -30px;
   height: 100%;
-  background-image: url("../img/device.png");
+  background-image: url('../img/device.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -226,7 +226,7 @@ section.sessao1 .container {
   color: white;
   float: left;
   width: 50%;
-  padding: 140px 0 90px 0;
+  padding: 140px 0 330px 0;
   background-color: #835fa7;
 }
 
@@ -251,14 +251,24 @@ section.sessao1 .container {
 .parte2 {
   float: left;
   width: 50%;
-  padding: 140px 0 90px 0;
+  padding: 140px 0 50px 0;
   background-color: white;
+}
+
+.scrollEquipe {
+  max-width: 600px;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.scroll-wraper {
+  width: 100%;
 }
 
 .sobre-autor {
   float: left;
-  max-width: 600px;
-  padding-left: 30px;
+  width: 100%;
+  padding: 10px 20px;
 }
 
 .titulo-autor {
@@ -291,7 +301,7 @@ section.sessao1 .container {
   position: relative;
   top: -4px;
   border-radius: 20px;
-  background-image: url("../img/IMG_20201009_232732_215.jpg");
+  background-image: url('../img/IMG_20201009_232732_215.jpg');
   background-size: 100% 100%;
   background-size: 100% 100%;
 }
@@ -310,7 +320,7 @@ section.sessao1 .container {
 .slider-bullets {
   width: 100%;
   float: left;
-  padding-left: 30px;
+  padding-left: 40px;
   margin-top: 12px;
 }
 
@@ -352,7 +362,7 @@ section.sessao4 {
   margin-top: 15px;
 }
 
-.form form input[type="text"] {
+.form form input[type='text'] {
   width: 90%;
   max-width: 480px;
   margin-top: 8px;
@@ -372,7 +382,7 @@ section.sessao4 {
   height: 160px;
 }
 
-.form form input[type="submit"] {
+.form form input[type='submit'] {
   background-color: #ff703d;
   width: 165px;
   height: 44px;
@@ -458,6 +468,18 @@ footer p:nth-of-type(2) {
     color: white;
     margin-top: 10px;
   }
+
+  .parte1 {
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .parte2 {
+    width: 100%;
+    padding: 40px 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -469,7 +491,7 @@ footer p:nth-of-type(2) {
     /*max-height: 700px;*/
     background-size: cover;
     background-position: center;
-    background-image: url("../img/capa.png");
+    background-image: url('../img/capa.png');
     font-weight: 300;
   }
 
@@ -582,16 +604,6 @@ footer p:nth-of-type(2) {
 }
 
 @media screen and (max-width: 580px) {
-  .parte1 {
-    width: 100%;
-    padding: 40px 0;
-  }
-
-  .parte2 {
-    width: 100%;
-    padding: 40px 0;
-  }
-
   .sessao2 img {
     top: 16px;
     margin-top: 20px;
